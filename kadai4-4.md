@@ -8,6 +8,7 @@
 * 購入された商品の在庫数のセルをどのようにして特定するのか説明せよ。
   *  const stockElement = document.getElementById("stock" + this.id);　この文から、idをHTML内から取得して特定している。
 * 特定したセルの値をどのように変更するのか説明せよ。
+  *  stockElement.textContent = this.stock;　この文のtextContentからテキストを変更している。
 ### Q4-3. 感想
 * 今回の課題で苦労したこと
 * 演習を通して理解できたこと
