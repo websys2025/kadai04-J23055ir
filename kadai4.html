@@ -36,8 +36,12 @@
                     console.log("商品は以下の" + Item.number + "種類です。");
 
                     // 配列の内容を項目毎に出力
-                    for (let i = 0; i < items.length; i++) {
-                        item_list[i] = new Item(items[i].name, items[i].price, items[i].stock);
+                    for (let i = 0; i < list.length; i++) {
+                    console.log("id: " + list[i].id +
+                                ", name: " + list[i].name +
+                                ", " + list[i].price + "円" +
+                                ", 残り" + list[i].stock + "個"
+                                );
                     }
                     console.log(""); // 空行の出力
                 }
